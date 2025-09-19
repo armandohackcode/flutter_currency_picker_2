@@ -1,0 +1,14 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "files": [
+        "lib/**/*.dart",
+        "lib/l10n/app_localizations_en.arb"
+    ],
+    "words": [
+     
+    ],
+    "ignorePaths": [
+        "lib/src/currencies.dart",
+    ]
+}
