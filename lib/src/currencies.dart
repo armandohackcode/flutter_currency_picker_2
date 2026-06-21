@@ -132,7 +132,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "SEK",
-    "name": "Sweden Krona",
+    "name": "Swedish Krona",
     "symbol": "kr",
     "flag": "SEK",
     "decimal_digits": 2,
@@ -275,7 +275,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "DKK",
-    "name": "Denmark Krone",
+    "name": "Danish Krone",
     "symbol": "kr",
     "flag": "DKK",
     "decimal_digits": 2,
@@ -327,7 +327,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "HUF",
-    "name": "Hungary Forint",
+    "name": "Hungarian Forint",
     "symbol": "Ft",
     "flag": "HUF",
     "decimal_digits": 0,
@@ -574,7 +574,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "BBD",
-    "name": "Barbados Dollar",
+    "name": "Barbadian Dollar",
     "symbol": "\$",
     "flag": "BBD",
     "decimal_digits": 2,
@@ -808,7 +808,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "DOP",
-    "name": "Dominican Republic Peso",
+    "name": "Dominican Peso",
     "symbol": "RD\$",
     "flag": "DOP",
     "decimal_digits": 2,
@@ -925,7 +925,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "HTG",
-    "name": "Haitian gourde",
+    "name": "Haitian Gourde",
     "symbol": "G",
     "flag": "HTI",
     "decimal_digits": 2,
@@ -1328,7 +1328,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "QAR",
-    "name": "Qatar Riyal",
+    "name": "Qatari Rial",
     "symbol": "﷼",
     "flag": "QAR",
     "decimal_digits": 2,
@@ -1367,7 +1367,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "SCR",
-    "name": "Seychellois rupee",
+    "name": "Seychellois Rupee",
     "symbol": "₨",
     "flag": "SC",
     "decimal_digits": 2,
@@ -1484,7 +1484,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "UGX",
-    "name": "Ugandan Shilling",
+    "name": "Uganda Shilling",
     "symbol": "USh",
     "flag": "UGX",
     "decimal_digits": 0,
@@ -1614,7 +1614,7 @@ List<Map<String, dynamic>> currencies = [
   },
   {
     "code": "LYD",
-    "name": "Libyan dinar",
+    "name": "Libyan Dinar",
     "symbol": "ل.د",
     "flag": "LY",
     "decimal_digits": 3,
@@ -1650,5 +1650,31 @@ List<Map<String, dynamic>> currencies = [
     "decimal_separator": ".",
     "space_between_amount_and_symbol": true,
     "symbol_on_left": false
+  },
+  {
+    "code": "USDT",
+    "name": "Tether",
+    "symbol": "USDT",
+    "flag": "USDT",
+    "decimal_digits": 2,
+    "number": 0,
+    "name_plural": "Tether",
+    "thousands_separator": ",",
+    "decimal_separator": ".",
+    "space_between_amount_and_symbol": true,
+    "symbol_on_left": true
+  },
+  {
+    "code": "USDC",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "flag": "USDC",
+    "decimal_digits": 2,
+    "number": 0,
+    "name_plural": "USD Coins",
+    "thousands_separator": ",",
+    "decimal_separator": ".",
+    "space_between_amount_and_symbol": true,
+    "symbol_on_left": true
   }
 ];
